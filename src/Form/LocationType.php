@@ -39,7 +39,7 @@ class LocationType extends AbstractType
         ]);
     }
 
-//    public function __toString() {
-//        return (string) $this->city;
-//    }
+    public function __toString() {
+        return (string) $this->city;
+    }
 }
